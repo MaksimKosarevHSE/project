@@ -14,6 +14,10 @@ public class People {
     public People() {
     }
 
+    public void great(){
+        System.out.println("Hello");
+    }
+
     public void setId(int id) {
         this.id = id;
     }
