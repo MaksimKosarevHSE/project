@@ -10,6 +10,7 @@ public class People {
         this.name = name;
         this.age = age;
     }
+    
 
     public People() {
     }
