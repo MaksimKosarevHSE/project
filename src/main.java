@@ -1,6 +1,12 @@
+import java.util.Scanner;
+
 public class main {
     public static void main(String[] args) {
-        People p1 = new People(1, "Maksim", 18);
+        Scanner scanner = new Scanner(System.in);
+        int id = Integer.parseInt(scanner.nextLine());
+        String name = scanner.nextLine();
+        int age = scanner.nextInt();
+        People p1 = new People(id, name, age);
         System.out.println(p1);
     }
 }
