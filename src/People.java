@@ -1,6 +1,6 @@
 import java.util.Objects;
 
-
+ЧТО ТАКОЕ
 
 public class People {
     private int id;
