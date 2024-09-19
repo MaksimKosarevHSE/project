@@ -7,6 +7,7 @@ public class main {
         String name = scanner.nextLine();
         int age = scanner.nextInt();
         People p10;
+        //12345
         People p1 = new People(id, name, age);
         System.out.println(p1);
     }
